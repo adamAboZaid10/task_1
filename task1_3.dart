@@ -6,6 +6,6 @@ main()
   {
     print('Enter your number');
     double num = double.parse(stdin.readLineSync()!);
-    double sqrtNum = sqrt(num);
+    double sqrtNum = num * num ;
     print(sqrtNum);
   }
